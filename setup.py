@@ -21,7 +21,7 @@ setup(
     install_requires = requirements,
     entry_points = {
         'console_scripts': [
-            'yatu=image_compres\palette_ffmpeg:main'
+            'yatu=yatu\palette_ffmpeg:main'
         ]
     }
 )
